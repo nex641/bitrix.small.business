@@ -573,42 +573,7 @@
   .catalog-content {
     margin-left: 200px;
   }
-  .side-menu {
-    
-  }
-  .side-menu > ul {
-    border-bottom: 1px solid #e52b2e;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  .side-menu > ul:last-child {
-    border-bottom: none;
-  }
-  .side-menu ul,
-  .filter-wrap ul {
-    list-style-type: none;
-  }
-  .side-menu li {
-    font-family: 'helveticaneuecyrmedium', sans-serif;
-    font-size: 14px;
-  }
-  .side-menu li a{
-    color: #353535;
-    margin-bottom: 0.7rem;
-    text-decoration: none;
-    display: block;
-  }
-  .side-menu li.current > a,
-  .side-menu li a:hover {
-    color: #db4a4a;
-  }
-  .side-menu li li {
-    font-family: 'helveticaneuecyrroman', sans-serif;
-    font-size: 12px;
-  }
-  .side-menu li ul {
-    margin-left: 2rem;
-  }
+  
   .filter {
     padding: 15px;
     background: #f6f6f6;
@@ -712,7 +677,7 @@
   .info {
     width: 17px;
     height: 17px;
-    background: url(assets/images/sign.png) no-repeat 0 0;
+    background: url(/assets/images/sign.png) no-repeat 0 0;
     display: inline-block;
     margin-bottom: -3px;
     margin-left: 1rem;

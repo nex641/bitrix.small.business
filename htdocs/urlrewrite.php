@@ -1,5 +1,13 @@
 <?php
 $arUrlRewrite=array (
+  4 => 
+  array (
+    'CONDITION' => '#^/catalog/filter/(.+?)/apply/#',
+    'RULE' => 'SMART_FILTER_PATH=$1',
+    'ID' => '',
+    'PATH' => '/catalog/index.php',
+    'SORT' => 99,
+  ),
   0 => 
   array (
     'CONDITION' => '#^\\/?\\/mobileapp/jn\\/(.*)\\/.*#',
@@ -14,6 +22,14 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => '',
     'PATH' => '/bitrix/services/ymarket/index.php',
+    'SORT' => 100,
+  ),
+  5 => 
+  array (
+    'CONDITION' => '#^/catalog/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/catalog/index.php',
     'SORT' => 100,
   ),
   1 => 

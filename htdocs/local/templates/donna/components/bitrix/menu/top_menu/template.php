@@ -3,7 +3,7 @@
 <? if (!empty($arResult)) : ?>
 	<nav id="navi">
 		<ul>
-			<?foreach ($arResult as $arItem) : ?>
+			<? foreach ($arResult as $arItem) : ?>
 				<? if ($arItem["SELECTED"]) : ?>
 					<li>
 						<a href="<?= $arItem["LINK"] ?>" class="selected"><?= $arItem["TEXT"] ?></a>
@@ -14,3 +14,4 @@
 			<? endforeach ?>
 		</ul>
 	<? endif ?>
+	</nav>

@@ -1,0 +1,1 @@
+<a class="sale-home" href="#" style="background-image: url(<?=SITE_TEMPLATE_PATH?>/assets/images/sale.jpg);"></a>

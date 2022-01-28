@@ -13,8 +13,8 @@
 		</ul>
 		<ul>
 			<? for ($i = round(count($arResult) / 2); $i < count($arResult); $i++) : ?>
-					<li><a href="<?= $arResult[$i]["LINK"] ?>"><?= $arResult[$i]["TEXT"] ?></a></li>
+				<li><a href="<?= $arResult[$i]["LINK"] ?>"><?= $arResult[$i]["TEXT"] ?></a></li>
 			<? endfor ?>
 		</ul>
-	<? endif ?>
+		<? endif ?>
 	</div>
