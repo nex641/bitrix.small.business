@@ -6,7 +6,7 @@ $APPLICATION->addChainItem($APPLICATION->GetTitle(), $APPLICATION->getCurDir());
 ?><div class="catalog">
 	<? $APPLICATION->IncludeComponent(
 	"bitrix:catalog", 
-	".default", 
+	"", 
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_ELEMENT_CHAIN" => "N",

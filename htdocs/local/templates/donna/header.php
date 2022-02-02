@@ -153,7 +153,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 						<div>
 							<? $APPLICATION->IncludeComponent(
 								"bitrix:sale.basket.basket.line",
-								"bag",
+								"",
 								array(
 									"HIDE_ON_BASKET_PAGES" => "Y",
 									"PATH_TO_AUTHORIZE" => "",
@@ -170,7 +170,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 									"SHOW_PRODUCTS" => "N",
 									"SHOW_REGISTRATION" => "Y",
 									"SHOW_TOTAL_PRICE" => "N",
-									"COMPONENT_TEMPLATE" => "bag"
+									"COMPONENT_TEMPLATE" => ".default"
 								),
 								false
 							); ?>

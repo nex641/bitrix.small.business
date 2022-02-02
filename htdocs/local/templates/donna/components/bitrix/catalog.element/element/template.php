@@ -243,7 +243,7 @@ $actualItem = $arResult['OFFERS'][$arResult['OFFERS_SELECTED']];
 		$templateData['OFFER_IDS'] = $offerIds;
 		$templateData['OFFER_CODES'] = $offerCodes;
 		unset($jsOffer, $strAllProps, $strMainProps, $strPriceRanges, $strPriceRangesRatio, $useRatio);
-	
+		
 		$jsParams = array(
 			'CONFIG' => array(
 				'USE_CATALOG' => $arResult['CATALOG'],
