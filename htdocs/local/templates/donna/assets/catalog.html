@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<head>
+	<title>Site name</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.flexslider.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script type="text/javascript" src="scripts/slick.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.fancybox.js"></script>
+  <script type="text/javascript" src="scripts/jquery.zoom.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.fancybox-media.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+	<![endif]-->
+</head>
+<body>
+<section id="wrapper">
+  
+  <!-- start header -->
+  <header id="header">	
+    <div class="inner">
+      <div id="logo">
+        <a href="#" title="Site name"><!-- logo should be used as background --></a>
+      </div>			
+      
+      <div class="search-section">
+        <!-- start form -->
+        <form action="" method="post">			
+          <fieldset>
+            <div class="search">
+              <input type="text" name="search-input" placeholder="Поиск по названию и номеру артикула" value="" />
+              <input type="submit" name="submit" value="" />
+            </div>					
+          </fieldset>				
+        </form>
+        <!-- end of form -->
+      </div>
+      
+      <div class="phones">
+        <div class="phone">
+          +7 (985) 1111-016
+          <span>розница (будни, 10:00-19:00)</span>
+        </div>
+        
+        <div class="phone">
+          +7 (916) 1111-119
+          <span>розница (будни, 9:00-18:00)</span>
+        </div>
+      </div>
+      
+      <div class="acount-info">
+        <div class="login">
+          <a href="#">Зарегистрироваться</a>
+          <a href="#">Войти</a>
+        </div>
+        
+        <div class="bag">
+          В корзине 2 товара<br/>
+          на сумму 217 590 руб.
+        </div>
+      </div>
+      
+      <div class="mobile-menu"><span></span><div>МЕНЮ</div></div>
+    </div>			
+  </header>
+  <!-- end of header -->
+  
+  <!-- start navigation -->
+  <nav id="navi">
+    <ul>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Таблица размеров</a></li>
+      <li><a href="#">Как сделать заказ</a></li>
+      <li><a href="#">Доставка и оплата</a></li>
+      <li class="opt"><a href="#">Оптовикам</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </nav>
+  <!-- end of navigation -->
+  
+  <!-- start container -->		
+  <section id="container">
+    <div class="inner">
+      <div class="breadcrumbs">
+        <a href="#">Главная</a>    &raquo;   <a href="#">Женская одежда</a>  &raquo;     <span>Платья</span>
+      </div>
+      
+      <div class="catalog">
+        <div class="sidebar-left">
+          <div class="drop">Развернуть опции</div>
+          <div class="drop-wrap">
+            <div class="side-menu">
+              <ul>
+                <li class="current"><a href="">Платья</a>
+                  <ul>
+                    <li><a href="">Нарядные</a></li>
+                    <li><a href="">Длинные</a></li>
+                    <li><a href="">Летние</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Блузки и топы</a></li>
+                <li><a href="">Юбки</a></li>
+                <li><a href="">Кардиганы</a></li>
+                <li><a href="">Комбинезоны</a></li>
+              </ul>
+              <ul>
+                <li><a href="">Распродажа</a></li>
+                <li><a href="">Ликвидация</a></li>
+              </ul>
+            </div>
+            
+            <div class="filter">
+              <div class="filter-wrap">
+                <ul>
+                  <li><input type="checkbox" id="id-1" name="" value="Новая коллекция" ><label for="id-1">Новая коллекция</label></li>
+                  <li><input type="checkbox" id="id-2" name="" value="Скидки" ><label for="id-2">Скидки</label></li>
+                </ul>
+              </div>
+              <div class="filter-wrap">
+                <div class="title-filter">Материал</div>
+                <ul>
+                  <li><input type="checkbox" id="id-3" name="" value="эластан"><label for="id-3">эластан</label></li>
+                  <li><input type="checkbox" id="id-4" name="" value="хлопок"><label for="id-4">хлопок</label></li>
+                  <li><input type="checkbox" id="id-5" name="" value="вискоза"><label for="id-5">вискоза</label></li>
+                  <li><input type="checkbox" id="id-6" name="" value="полиэстер"><label for="id-6">полиэстер</label></li>
+                </ul>
+              </div>
+              
+              <div class="filter-wrap">
+                <div class="title-filter">Цвет</div>
+                <div class="result">Найдено: 49 товаров</div>
+                <ul class="color-filter">
+                  <li><span style="background-color: #94223b;"></span></li>
+                  <li><span style="background-color: #020606;"></span></li>
+                  <li><span style="background-color: #006fba;"></span></li>
+                  <li class="active"><span style="background-color: #00aa9d;"></span></li>
+                  <li><span style="background-color: #b57d4e;"></span></li>
+                  <li><span style="background-color: #aa2293;"></span></li>
+                  <li><span style="background-color: #ff9500;"></span></li>
+                  <li><span style="background-color: #00b63e;"></span></li>
+                </ul>
+                
+              </div>
+              
+              <div class="filter-wrap">
+                <div class="title-filter">Размер <a href="#" class="info"></a></div>
+                
+                <ul class="filter-size">
+                  <li><input type="checkbox" id="id-7" name="" value="40" ><label for="id-7">40</label></li>
+                  <li><input type="checkbox" id="id-8" name="" value="42" ><label for="id-8">42</label></li>
+                  <li><input type="checkbox" id="id-9" name="" value="44" ><label for="id-9">44</label></li>
+                </ul>
+                
+                <ul class="filter-size last">
+                  <li><input type="checkbox" id="id-10" name="" value="46" ><label for="id-10">46</label></li>
+                  <li><input type="checkbox" id="id-11" name="" value="48" ><label for="id-11">48</label></li>
+                  <li><input type="checkbox" id="id-12" name="" value="50" ><label for="id-12">50</label></li>
+                </ul>
+              </div>
+              
+              <div class="filter-wrap">
+                <div class="title-filter">Сезон</div>
+                
+                <ul>
+                  <li><input type="checkbox" id="id-13" name="" value="весна/лето 2016" ><label for="id-13">весна/лето 2016</label></li>
+                  <li><input type="checkbox" id="id-14" name="" value="осень/зима 2017" ><label for="id-14">осень/зима 2017</label></li>
+                </ul>
+                
+              </div>
+              
+              <div class="filter-wrap">
+                <div class="title-filter">Стиль</div>
+                
+                <ul>
+                  <li><input type="checkbox" id="id-15" name="" value="вечернее платье" ><label for="id-15">вечернее платье</label></li>
+                  <li><input type="checkbox" id="id-16" name="" value="коктельное платье" ><label for="id-16">коктельное платье</label></li>
+                </ul>
+                
+              </div>
+              
+              <div class="filter-wrap">
+                <div class="title-filter">Цена, руб.</div>
+                <div id="slider-range"></div>
+                <div class="range-min"></div>
+                <div class="range-max"></div>
+                <a href="#" class="choose">Подобрать</a>
+              </div> 
+            </div>
+          </div>
+        </div>
+        
+        <div class="catalog-content">
+          <div class="catalog-top">
+            <div class="catalog-top-text">
+              <h1>Платья</h1>
+              <p>Покупая женские платья оптом от производителя, владельцы магазинов хотят быть уверены, что этот товар будет
+              пользоваться спросом. Ведь большинство женщин в заботе о собственном комфорте давно предпочли платьям 
+              и юбкам брючные костюмы и джинсы, не задумываясь при этом, что они добровольно отказываются
+              от преимуществ, которыми их наградила природа. Стоит напомнить им, что правильно подобранное платье способно
+              в мгновение ока вернуть дамам их природную привлекательность, сексуальность и желанность.</p>
+            </div>
+            
+            <div class="offer">
+              <a href="#"><img src="images/opt.jpg" alt="" /></a>  
+            </div>
+          </div>
+          
+          <div class="sort">
+            <div class="sort-left">
+              Сортировать:   <a class="active s-top">по цене</a> <a>по новизне</a>
+            </div>
+            <div class="sort-right">
+              <div class="page-navigation">
+                <a href="#"><</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <span>5</span>
+                <a href="#">></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="catalog-list">
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="sale"></div>
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="hit"></div>
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="new"></div>
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="goods">
+              <div class="goods-inner">
+                <div class="goods-slider">
+                  <ul class="slides">
+                    <li><img src="images/goods.jpg" alt="" ></li>  
+                    <li><img src="images/goods.jpg" alt="" ></li> 
+                  </ul>
+                  <a href="ajax.html" class="quick-view various fancybox.ajax" data-fancybox-type="ajax">Быстрый просмотр</a>
+                </div>
+                
+                <div class="goods-description">
+                  <h3><a href="#">Длинное платье</a></h3>
+                  
+                  <div class="art">Артикул: DSP-55-41t</div>
+                  
+                  <div class="cost">3 890 руб.</div>
+                  
+                  <div class="sizes">
+                    <div>размеры:</div>
+                    
+                    <ul>
+                      <li>40</li>
+                      <li class="active">42</li>
+                      <li>44</li>
+                      <li>46</li>
+                      <li>48</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="sort last">
+            <div class="sort-left">
+              <a href="#" class="down">НАверх</a>
+            </div>
+            <div class="sort-right">
+              <div class="page-navigation">
+                <a href="#" class="see-all-nav">Показать все</a>
+                <a href="#"><</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <span>5</span>
+                <a href="#">></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <section class="description">
+      <div class="inner">
+        <div class="title-section">Платья оптом от производителя</div>
+        
+        <p>
+        Делая выбор при приобретении платьев оптом, ошибкой будет не учесть требования моды. Для летних платьев наиболее популярна большая длина, которая в сочетании
+        с лёгкими тканями добавляет образу женщины воздушность и нежность. Длина средних платьев, согласно трендам, колеблется чуть выше или чуть ниже колен. Платья
+        средней длины имеют очень большое влияние на зрительное восприятие фигуры, поэтому их следует подбирать очень аккуратно. Мини-платья остаются короткими и,
+        как и раньше, их не следует надевать на работу.</p>
+        <p>
+        Модность той или иной ткани зависит от сезона. Типичными летними тканями считаются хлопковые, льняные и шёлковые ткани. Для осенних платьев актуальны
+        шерстяные и вязаные ткани. Популярны зимние ткани из мохера, шерсти и фланели. На весну пригодится платье из шифона, полиэстера и текстиля.
+        </p>
+
+
+    </section>
+  </section>
+  <!-- end of container -->		
+	
+	<!-- start footer -->
+	<footer id="footer">	
+    <div class="inner">
+      <div class="footer-phones">
+        <div class="footer-phone">
+          <span class="number">+7 985 111-10-16</span><span class="label-phone">розничный отдел<br>(по будням с 10:00 до 19:00)</span>
+        </div>
+        
+        <div class="footer-phone">
+          <span class="number">+7 916 111-11-19</span><span class="label-phone">оптовый отдел<br>(по будням с 9:00 до 18:00)</span>
+        </div>
+      </div>
+      
+      <div class="info-menu">
+        <ul>
+          <li><a href="#">Как сделать заказ</a></li>
+          <li><a href="#">Доставка и полата</a></li>
+          <li><a href="#">Таблица размеров</a></li>
+          <li><a href="#">Оптовикам</a></li>
+        </ul>
+      </div>
+      
+      <div class="company-menu">
+        <h3>Компания</h3>
+        
+        <ul>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Сертификаты</a></li>
+        </ul>
+        
+        <ul>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Статьи</a></li>
+          <li><a href="#">Галерея</a></li>
+        </ul>
+      </div>
+      
+      <div class="social">
+      
+        <h3>Социальные сети</h3>
+        
+        <div class="icons">
+          <a href="#" class="facebook"></a>
+          <a href="#" class="vk"></a>
+          <a href="#" class="instagram"></a>
+        </div>
+        
+        <div class="subscribe-section">
+          <!-- start form -->
+          <form action="" method="post">			
+            <fieldset>
+              <div class="subscribe">
+                <input type="text" name="subscribe-input" placeholder="Подпишитесь на новости" value="" />
+                <input type="submit" name="submit" value="" />
+              </div>					
+            </fieldset>				
+          </form>
+          <!-- end of form -->
+        </div>
+      </div>
+      
+      <p class="copyright">© 2015 Интернет-магазин женской одежды «Donna Saggia». Все права защищены</p>
+    </div>
+	</footer>
+	<!-- end of footer -->
+	
+</section>
+<!-- end of wrapper -->
+
+</body>
+</html>

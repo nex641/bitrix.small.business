@@ -1,0 +1,45 @@
+<?
+$aMenuLinks = array(
+	array(
+		"Контакты",
+		"/catalog/temp/all/",
+		[],
+		[],
+		""
+	),
+	array(
+		"О нас",
+		"/about/index.php",
+		[],
+		[],
+		""
+	),
+	array(
+		"Сертификаты",
+		"/tablitsa-razmerov",
+		[],
+		[],
+		""
+	),
+	array(
+		"Новости",
+		"/tablitsa-razmerov",
+		[],
+		[],
+		""
+	),
+	array(
+		"Статьи",
+		"/tablitsa-razmerov",
+		[],
+		[],
+		""
+	),
+	array(
+		"Галерея",
+		"/tablitsa-razmerov",
+		[],
+		[],
+		""
+	),
+);
